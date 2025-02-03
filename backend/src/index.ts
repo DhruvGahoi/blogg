@@ -6,7 +6,7 @@ import { sign } from 'hono/jwt'
 const app = new Hono<{
   Bindings: {
     DATABASE_URL: string,
-    JWT_SECRET: string,
+    JWT_SECRET: string,WT
   }
 }>()
 
